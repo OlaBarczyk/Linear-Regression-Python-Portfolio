@@ -53,7 +53,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy openpyxl
 git clone https://github.com/OlaBarczyk/Machine-Learning-Portfolio.git
 cd Machine-Learning-Portfolio
 Make sure the file Descriptors.xlsx is in the same folder as MyFirstNotebook.ipynb.
-
+```
 Open MyFirstNotebook.ipynb in Jupyter Notebook or VS Code with the Jupyter extension.
 
 Run all cells sequentially to see data preprocessing, PCA, visualizations, and regression models in action.
