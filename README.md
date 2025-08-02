@@ -1,4 +1,4 @@
-# Machine Learning Portfolio
+# Linear - Regression - Python Portfolio
 
 > A hands-on project demonstrating the implementation of linear regression from scratch, data preprocessing, PCA (Principal Component Analysis), and visualization using a real chemical descriptors dataset.
 
