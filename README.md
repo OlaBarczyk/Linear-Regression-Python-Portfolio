@@ -66,20 +66,32 @@ The dataset used is **Descriptors.xlsx**, containing various numerical chemical 
 - **Regression lines** for single & multiple variables  
 
 ---
-
 ## 🛠️ Getting Started
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/OlaBarczyk/Linear-Regression-Python-Portfolio.git
    cd Linear-Regression-Python-Portfolio
-   2. Install dependencies
+   ```
+
+2. Install dependencies
+```bash
 pip install numpy pandas matplotlib seaborn scikit-learn scipy openpyxl
+```
 
 3. Open notebooks in Jupyter or VS Code
 - Chemical_Descriptors_Analysis.ipynb → Data preprocessing & EDA
 - Descriptors_PCA_Analysis.ipynb → PCA exploration & interpretation
-  ```
+  
+ ---
+
+📄 License
+
+This project is licensed under the MIT License.
+🙋‍♀️ About Me
+Created with 💡 by Aleksandra Barczyk
+
+<p align="center"> <a href="https://github.com/OlaBarczyk"> <img src="https://img.shields.io/badge/GitHub-OlaBarczyk-black?style=for-the-badge&logo=github"> </a> <a href="https://www.linkedin.com/in/ola-barczyk/"> <img src="https://img.shields.io/badge/LinkedIn-ola--barczyk-blue?style=for-the-badge&logo=linkedin"> </a> </p> 
 
 
 
