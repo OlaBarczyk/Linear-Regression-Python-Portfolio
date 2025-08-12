@@ -1,116 +1,85 @@
-# Linear - Regression - Python Portfolio
+<h1 align="center">🧪 Chemical Descriptors Analysis & PCA</h1>
 
-> A hands-on project demonstrating the implementation of linear regression from scratch, data preprocessing, PCA (Principal Component Analysis), and visualization using a real chemical descriptors dataset.
+<p align="center">
+  📊 A hands-on Python project demonstrating chemical descriptors preprocessing, exploratory data analysis, and dimensionality reduction with PCA.<br/>
+  ✨ Built to showcase a complete data science workflow in Jupyter Notebooks.
+</p>
 
----
-
-## About The Project
-
-This project showcases the core workflow of a typical machine learning pipeline:
-
-- Manual implementation of **Simple and Multiple Linear Regression**
-- Calculation of regression metrics: **R² (coefficient of determination)** and **MSE (Mean Squared Error)**
-- **Visualization** of model behavior through regression lines, residual plots, and Q-Q plots
-- **PCA (Principal Component Analysis)** to reduce data dimensionality
-- **Data preprocessing**: cleaning, normalization, outlier detection (3-sigma rule), feature selection
-- Built-in support for **coefficient constraints** (min, max, delta values)
-- Usage of `scikit-learn` for comparison
+<p align="center">
+  <img src="https://img.shields.io/github/stars/OlaBarczyk/Linear-Regression-Python-Portfolio?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/OlaBarczyk/Linear-Regression-Python-Portfolio?style=social" alt="GitHub forks">
+  <img src="https://img.shields.io/github/license/OlaBarczyk/Linear-Regression-Python-Portfolio?color=green" alt="MIT License">
+  <img src="https://img.shields.io/badge/Built%20with-Python-blue?style=flat&logo=python" alt="Built with Python">
+</p>
 
 ---
 
-## Table of Contents
+## 🚀 Overview
 
-- [About The Project](#about-the-project)
-- [Dataset](#dataset)
-- [Getting Started](#getting-started)
-- [Usage Examples](#usage-examples)
-- [Visualizations](#visualizations)
-- [Built With](#built-with)
-- [License](#license)
+This project is designed for:
+- 🧪 Data Scientists  
+- 🧬 Cheminformatics Researchers  
+- 📊 Students learning PCA and feature analysis  
 
----
-
-## Dataset
-
-The dataset used is `Descriptors.xlsx`, which contains a variety of numerical chemical descriptors such as:
-
-- Molecular Weight (`MolWt`)
-- Topological Polar Surface Area (`TPSA`)
-- Chi indices (`Chi0n`)
-- Hydrogen acceptor counts (`NumHAcceptors`)
-- Functional group indicators (e.g., `fr_benzene`)
+who want to understand chemical descriptor datasets, clean and prepare them for modeling, and explore them using Principal Component Analysis.
 
 ---
 
-## Getting Started
+## 🧩 Features
 
-### Prerequisites
+✅ **Chemical Descriptors Analysis** (`Chemical_Descriptors_Analysis.ipynb`)  
+- Data loading & inspection  
+- Outlier detection (3-sigma rule)  
+- Normalization and scaling  
+- Distribution & correlation plots  
 
-Ensure you have Python 3.10+ installed along with the following libraries:
+✅ **PCA Analysis** (`Descriptors_PCA_Analysis.ipynb`)  
+- Scree plot & cumulative variance  
+- 2D PCA scatter plots with labels  
+- Feature loadings interpretation  
+- Biplots combining samples & features  
 
-```bash
+✅ Built-in regression examples with manual and scikit-learn implementation  
+✅ Visual diagnostics: residual plots, Q-Q plots, and boxplots
+
+---
+
+## 📊 Dataset
+
+The dataset used is **Descriptors.xlsx**, containing various numerical chemical descriptors such as:
+
+- Molecular Weight (`MolWt`)  
+- Topological Polar Surface Area (`TPSA`)  
+- Chi indices (`Chi0n`)  
+- Hydrogen acceptor counts (`NumHAcceptors`)  
+- Functional group indicators (e.g., `fr_benzene`)  
+
+---
+
+## 🖼️ Visualizations
+
+- **Boxplots** (before & after normalization)  
+- **Histograms** for feature distributions  
+- **Scatter plots** between descriptor pairs  
+- **PCA plots** with explained variance  
+- **Biplots** for interpreting feature influence  
+- **Regression lines** for single & multiple variables  
+
+---
+
+## 🛠️ Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/OlaBarczyk/Linear-Regression-Python-Portfolio.git
+   cd Linear-Regression-Python-Portfolio
+   2. Install dependencies
 pip install numpy pandas matplotlib seaborn scikit-learn scipy openpyxl
-git clone https://github.com/OlaBarczyk/Machine-Learning-Portfolio.git
-cd Machine-Learning-Portfolio
-Make sure the file Descriptors.xlsx is in the same folder as MyFirstNotebook.ipynb.
-```
-Open MyFirstNotebook.ipynb in Jupyter Notebook or VS Code with the Jupyter extension.
 
-Run all cells sequentially to see data preprocessing, PCA, visualizations, and regression models in action.
-## Usage Examples
-## Simple Linear Regression
-X = np.array([[1], [2], [3], [4], [5]])
-y = np.array([2, 4, 5, 4, 5])
-model = MyLinearRegression()
-model.fit(X, y)
-model.plot(X, y)
-
-## Multiple Linear Regression
-X_multi = np.random.rand(100, 2) * 100
-y_multi = 3 * X_multi[:, 0] + 2 * X_multi[:, 1] + np.random.randn(100) * 10
-regression_multi = RegressionModel(X_multi, y_multi)
-regression_multi.fit()
-regression_multi.plot_residuals()
-regression_multi.plot_qq()
-
-## Visualizations
-The following visualizations are generated using matplotlib and seaborn:
-
-Boxplots before and after normalization for:
-
-MolWt, Chi0n, TPSA, NumHAcceptors, fr_benzene
-
-Histograms before and after normalization
-
-Scatter plots for each pair of selected variables
-
-PCA projection (2D) with explained variance printed
-
-Regression line for single-variable model
-
-Residual plots for model diagnostics
-
-Q-Q plot to check residual normality
-
-All plots are displayed within the notebook.
-
-## Built With
-
-- [NumPy](https://numpy.org/)
-- [Pandas](https://pandas.pydata.org/)
-- [Matplotlib](https://matplotlib.org/)
-- [Seaborn](https://seaborn.pydata.org/)
-- [scikit-learn](https://scikit-learn.org/)
-- [SciPy](https://scipy.org/)
-- [Jupyter Notebook](https://jupyter.org/)
+3. Open notebooks in Jupyter or VS Code
+- Chemical_Descriptors_Analysis.ipynb → Data preprocessing & EDA
+- Descriptors_PCA_Analysis.ipynb → PCA exploration & interpretation
 
 
-## License
-Distributed under the MIT License. See LICENSE for more information.
-
-## Acknowledgements
-
-- [Best README Template](https://github.com/othneildrew/Best-README-Template)
-- [Python Graph Gallery](https://python-graph-gallery.com/)
 
 
