@@ -79,6 +79,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy openpyxl
 3. Open notebooks in Jupyter or VS Code
 - Chemical_Descriptors_Analysis.ipynb → Data preprocessing & EDA
 - Descriptors_PCA_Analysis.ipynb → PCA exploration & interpretation
+  ```
 
 
 
